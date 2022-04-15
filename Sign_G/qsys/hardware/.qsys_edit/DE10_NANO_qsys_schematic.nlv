@@ -1,0 +1,29 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst DE10_NANO_qsys.nios2_qsys.reset_bridge -pg 1
+preplace inst DE10_NANO_qsys.onchip_memory -pg 1 -lvl 1 -y 370
+preplace inst DE10_NANO_qsys.nios2_qsys -pg 1 -lvl 1 -y 50
+preplace inst DE10_NANO_qsys -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst DE10_NANO_qsys.nios2_qsys.clock_bridge -pg 1
+preplace inst DE10_NANO_qsys.uart_0 -pg 1 -lvl 2 -y 610
+preplace inst DE10_NANO_qsys.pll_qsys -pg 1 -lvl 1 -y 450
+preplace inst DE10_NANO_qsys.uart_1 -pg 1 -lvl 2 -y 730
+preplace inst DE10_NANO_qsys.clk -pg 1 -lvl 1 -y 190
+preplace inst DE10_NANO_qsys.adc_ltc2308 -pg 1 -lvl 2 -y 450
+preplace inst DE10_NANO_qsys.nios2_qsys.cpu -pg 1
+preplace inst DE10_NANO_qsys.jtag_uart -pg 1 -lvl 1 -y 250
+preplace inst DE10_NANO_qsys.sysid_qsys -pg 1 -lvl 1 -y 590
+preplace netloc FAN_OUT<net_container>DE10_NANO_qsys</net_container>(SLAVE)uart_0.irq,(SLAVE)uart_1.irq,(SLAVE)jtag_uart.irq,(MASTER)nios2_qsys.irq) 1 0 2 200 360 660
+preplace netloc EXPORT<net_container>DE10_NANO_qsys</net_container>(SLAVE)DE10_NANO_qsys.clk,(SLAVE)clk.clk_in) 1 0 1 NJ
+preplace netloc EXPORT<net_container>DE10_NANO_qsys</net_container>(SLAVE)DE10_NANO_qsys.uart_1,(SLAVE)uart_1.external_connection) 1 0 2 NJ 760 NJ
+preplace netloc POINT_TO_POINT<net_container>DE10_NANO_qsys</net_container>(SLAVE)pll_qsys.refclk,(MASTER)clk.clk) 1 0 2 200 560 620
+preplace netloc FAN_OUT<net_container>DE10_NANO_qsys</net_container>(SLAVE)uart_1.clk,(MASTER)pll_qsys.outclk0,(SLAVE)sysid_qsys.clk,(SLAVE)uart_0.clk,(SLAVE)jtag_uart.clk,(SLAVE)nios2_qsys.clk,(SLAVE)onchip_memory.clk1,(SLAVE)adc_ltc2308.clock_sink) 1 0 2 160 700 580
+preplace netloc EXPORT<net_container>DE10_NANO_qsys</net_container>(SLAVE)adc_ltc2308.conduit_end,(SLAVE)DE10_NANO_qsys.adc_ltc2308) 1 0 2 NJ 540 NJ
+preplace netloc INTERCONNECT<net_container>DE10_NANO_qsys</net_container>(MASTER)nios2_qsys.data_master,(SLAVE)uart_0.s1,(SLAVE)uart_1.s1,(SLAVE)jtag_uart.avalon_jtag_slave,(MASTER)nios2_qsys.instruction_master,(SLAVE)onchip_memory.s1,(SLAVE)adc_ltc2308.slave,(SLAVE)sysid_qsys.control_slave,(SLAVE)nios2_qsys.debug_mem_slave) 1 0 2 140 800 600
+preplace netloc EXPORT<net_container>DE10_NANO_qsys</net_container>(SLAVE)DE10_NANO_qsys.reset,(SLAVE)clk.clk_in_reset) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>DE10_NANO_qsys</net_container>(SLAVE)adc_ltc2308.clock_sink_adc,(MASTER)pll_qsys.outclk1) 1 1 1 N
+preplace netloc EXPORT<net_container>DE10_NANO_qsys</net_container>(SLAVE)uart_0.external_connection,(SLAVE)DE10_NANO_qsys.uart_0) 1 0 2 NJ 680 NJ
+preplace netloc INTERCONNECT<net_container>DE10_NANO_qsys</net_container>(SLAVE)uart_0.reset,(MASTER)clk.clk_reset,(MASTER)nios2_qsys.debug_reset_request,(SLAVE)pll_qsys.reset,(SLAVE)onchip_memory.reset1,(SLAVE)adc_ltc2308.reset_sink,(SLAVE)sysid_qsys.reset,(SLAVE)jtag_uart.reset,(SLAVE)nios2_qsys.reset,(SLAVE)uart_1.reset) 1 0 2 180 780 640
+preplace netloc EXPORT<net_container>DE10_NANO_qsys</net_container>(SLAVE)DE10_NANO_qsys.pll_qsys_locked,(SLAVE)pll_qsys.locked) 1 0 1 NJ
+levelinfo -pg 1 0 110 850
+levelinfo -hier DE10_NANO_qsys 120 320 690 840

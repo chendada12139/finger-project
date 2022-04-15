@@ -1,0 +1,1502 @@
+!SESSION 2021-11-24 15:00:43.082 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-24 15:01:10.127
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-11-24 15:07:19.624
+!MESSAGE Indexed 'Sign_G_bsp' (84 sources, 63 headers) in 1.44 sec: 1,310 declarations; 3,074 references; 116 unresolved inclusions; 6 syntax errors; 210 unresolved names (4.57%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-11-24 15:07:27.414
+!MESSAGE Indexed 'Sign_G' (1 sources, 0 headers) in 0.01 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.jface 2 0 2021-11-24 15:16:39.481
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-24 15:16:39.481
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d9e511c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d9e511c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-24 15:16:39.481
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@63cfd703,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@63cfd703,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-24 15:16:39.481
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b93d874,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b93d874,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-24 15:16:39.481
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@72b88762,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@72b88762,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-24 15:16:39.481
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d413e98,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d413e98,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-24 15:16:39.481
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b85fc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b85fc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-24 15:16:39.481
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@255eadf5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@255eadf5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-24 15:16:39.481
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@13ebbdab,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@13ebbdab,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-24 15:16:39.481
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@74af4b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@74af4b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 15:20:42.710
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637724042]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 15:20:46.523
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637724042 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 15:21:51.143
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 15:21:52.166
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637724042]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 15:21:57.247
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637724042 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-11-24 15:24:21.444
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "0", expected: "1637724042".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-11-24 15:24:21.451
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "0", expected: "1637724042".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 15:35:29.892
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637724042]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 15:35:37.414
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637724042 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 15:42:48.703
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 15:42:49.721
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637724042]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 15:42:59.677
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637724042 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY org.eclipse.ui 4 4 2021-11-24 15:43:45.760
+!MESSAGE Save All Failed
+
+!ENTRY org.eclipse.ui 2 0 2021-11-24 15:43:45.761
+!MESSAGE Save All Failed
+!STACK 0
+java.lang.IllegalArgumentException: Illegal value: -1
+	at org.eclipse.core.internal.resources.Resource.revertModificationStamp(Resource.java:1738)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.commitFileBufferContent(ResourceTextFileBuffer.java:401)
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.commit(ResourceFileBuffer.java:325)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.commitFileBuffer(TextFileDocumentProvider.java:871)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.commitWorkingCopy(CDocumentProvider.java:906)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider$2.execute(CDocumentProvider.java:933)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider$DocumentProviderOperation.run(TextFileDocumentProvider.java:132)
+	at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:69)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:75)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:65)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:456)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.saveDocument(TextFileDocumentProvider.java:772)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5073)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSave(AbstractTextEditor.java:4863)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7206)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:214)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:350)
+	at org.eclipse.ui.internal.WorkbenchPage$11.run(WorkbenchPage.java:3625)
+	at org.eclipse.ui.internal.SaveableHelper$5.run(SaveableHelper.java:278)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.ui.internal.WorkbenchWindow$13.run(WorkbenchWindow.java:1829)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:1826)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:286)
+	at org.eclipse.ui.internal.WorkbenchPage.saveAll(WorkbenchPage.java:3636)
+	at org.eclipse.ui.internal.WorkbenchPage.saveAllEditors(WorkbenchPage.java:3432)
+	at org.eclipse.ui.internal.Workbench.saveAllEditors(Workbench.java:1290)
+	at org.eclipse.ui.internal.Workbench.saveAllEditors(Workbench.java:1283)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.saveAllEditors(DebugUIPlugin.java:790)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.preLaunchSave(DebugUIPlugin.java:998)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.handleStatus(SaveScopeResourcesHandler.java:205)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter$1.run(Prompter.java:70)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:164)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 15:44:28.611
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 15:44:29.667
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637724042]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 15:44:35.150
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637724042 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+!SESSION 2021-11-24 16:28:36.661 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-24 16:28:53.208
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2021-11-24 16:29:15.212
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-24 16:29:15.212
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5315210d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5315210d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-24 16:29:15.212
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3f5f79d8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3f5f79d8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-24 16:29:15.212
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5dc1597f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5dc1597f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-24 16:29:15.212
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11896af6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11896af6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-24 16:29:15.212
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b6e2c83,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b6e2c83,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-24 16:29:15.212
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2fbb098f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2fbb098f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-24 16:29:15.212
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7866a7a6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7866a7a6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-24 16:29:15.212
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2262bc86,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2262bc86,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-24 16:29:15.212
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3872867d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3872867d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 16:32:16.338
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 16:32:20.646
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+!SESSION 2021-11-24 16:34:01.330 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-24 16:34:19.081
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 16:35:19.246
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 16:35:33.697
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+!SESSION 2021-11-24 16:51:47.960 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-24 16:52:38.019
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 17:37:30.741
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 17:37:40.948
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+!SESSION 2021-11-24 19:11:58.079 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-24 19:12:16.329
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 19:13:37.663
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 19:13:47.695
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+!SESSION 2021-11-24 19:16:23.863 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-24 19:16:33.374
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-11-24 20:34:08.831 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-24 20:34:28.182
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 20:40:34.832
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 20:40:50.223
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+!SESSION 2021-11-24 20:51:38.808 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-24 20:52:02.155
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 20:56:25.477
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 20:56:36.163
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 20:59:59.449
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 21:00:06.426
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 21:04:48.026
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 21:04:52.268
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 21:09:52.652
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 21:09:53.648
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 21:10:03.529
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 21:12:55.508
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 21:13:02.242
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 21:16:04.915
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 21:16:06.260
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-24 21:16:11.501
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+!SESSION 2021-11-25 15:19:44.860 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-25 15:20:03.685
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 15:52:47.366
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 15:52:51.766
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:09:04.035
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:09:04.876
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:09:08.495
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:12:39.825
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:12:40.655
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:12:44.405
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:23:18.943
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:23:19.774
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:23:27.354
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:24:44.243
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:24:48.313
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:25:45.424
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:25:50.593
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:30:36.003
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:30:40.603
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:36:14.142
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:36:18.692
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:42:56.471
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:42:59.572
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:52:48.201
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-11-25 16:52:56.281
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-11-25 16:52:56.381
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:53:43.601
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:53:49.911
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:54:50.661
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:54:55.671
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:57:35.411
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:57:40.371
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:57:55.480
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:59:08.960
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 16:59:15.390
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 17:00:40.950
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 17:00:42.380
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-25 17:00:45.420
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+!SESSION 2021-11-25 19:05:47.828 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-25 19:05:57.815
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2021-11-25 19:26:29.616
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-25 19:26:29.616
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6cbbfe03,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6cbbfe03,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-25 19:26:29.616
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@78b20c7f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@78b20c7f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-25 19:26:29.616
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@128579a6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@128579a6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-25 19:26:29.616
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14d5b2ac,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14d5b2ac,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-25 19:26:29.616
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@272d0dd3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@272d0dd3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-25 19:26:29.616
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f142cbd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f142cbd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-25 19:26:29.616
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@766534b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@766534b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-25 19:26:29.616
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f1cb802,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f1cb802,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-25 19:26:29.616
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1077a7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1077a7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SESSION 2021-12-03 20:27:19.256 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-03 20:27:33.322
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 20:57:08.506
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 20:57:14.032
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:03:30.574
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:03:31.538
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:03:39.505
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:04:02.687
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:04:07.713
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:04:22.787
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:06:29.179
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:06:30.150
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:06:34.347
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:11:12.841
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:11:17.861
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:11:29.506
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:15:20.184
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:15:24.759
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:15:32.022
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:18:22.296
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:18:27.329
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:18:34.199
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:34:02.473
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 21:34:05.635
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 22:18:22.844
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 22:18:24.704
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 22:18:30.114
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 22:20:27.981
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 22:20:33.052
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-03 22:20:38.451
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+!SESSION 2021-12-04 13:56:36.496 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-04 13:56:51.212
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-12-04 14:02:08.926
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-12-04 14:02:08.936
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-04 14:06:29.328
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-04 14:06:33.787
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-04 14:13:48.666
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-04 14:13:51.594
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-04 14:20:02.265
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-04 14:20:03.785
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-04 14:20:08.974
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-04 14:36:56.095
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-04 14:36:59.677
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-04 14:37:03.200
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-04 14:47:42.799
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-04 14:47:47.828
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-04 14:48:03.032
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-04 14:51:04.615
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-04 14:51:06.128
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-04 14:51:11.040
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+!SESSION 2021-12-26 20:43:42.992 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-12-26 20:43:47.451
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-26 20:44:01.077
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-12-29 10:30:47.983 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-29 10:31:03.276
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 11:35:23.831
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 11:35:30.414
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:03:21.946
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:03:25.688
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:08:31.317
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:08:36.390
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:08:50.484
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:09:52.055
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:09:53.096
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:09:56.237
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:14:54.658
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:14:55.642
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:15:07.250
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:19:26.348
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:19:27.423
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:19:35.894
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:22:58.090
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:22:59.677
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:23:05.243
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:41:51.156
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:41:57.038
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:44:51.258
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:44:52.527
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:45:04.969
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+!SESSION 2021-12-29 15:47:28.244 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-12-29 15:47:34.347
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-29 15:47:42.155
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:48:04.229
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:48:18.186
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:56:05.410
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:56:06.933
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 15:56:12.788
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 16:05:04.769
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 16:05:09.862
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 16:05:19.867
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 16:23:55.897
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 16:23:56.896
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 16:24:04.195
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 16:30:02.300
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 16:30:06.110
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 16:30:11.267
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 16:38:17.250
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 16:38:18.203
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 16:38:23.965
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 16:52:29.940
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 16:52:30.883
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-12-29 16:52:34.842
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+!SESSION 2021-12-29 20:50:06.061 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-29 20:50:20.574
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2022-04-14 22:13:42.555 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-04-14 22:14:15.174
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-14 22:17:05.741
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-14 22:17:09.848
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+!SESSION 2022-04-15 09:35:22.462 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-04-15 09:38:15.656
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-04-15 09:38:30.388
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 09:44:59.552
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 09:45:07.572
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 09:58:30.290
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 09:58:33.868
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 11:11:12.399
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 11:11:15.967
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 11:15:22.035
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 11:15:26.109
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 11:37:53.284
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 11:37:57.485
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 11:43:40.458
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 11:43:43.467
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 11:43:46.961
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 11:47:18.321
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 11:47:19.501
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 11:47:23.608
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 11:54:15.578
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 11:54:16.947
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 11:54:22.389
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 11:56:02.040
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 11:56:02.820
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --sidp=0x1048 --id=0x0 --timestamp=1637742172]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-04-15 11:56:07.024
+!MESSAGE Executing: [D:/ruanjian/quartus15.0/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --sidp=0x1048 --id=0x0 --timestamp=1637742172 /cygdrive/d/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G/Sign_G.elf]
+!SESSION 2022-04-15 14:03:05.606 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/ruanjian/quartus15.0/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-04-15 14:03:14.889
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

@@ -1,0 +1,307 @@
+14:03:31 **** Incremental Build of configuration Nios II for project Sign_G ****
+make all 
+Info: Building D:/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G_bsp/
+D:/Ruanjian/Quartus15.0/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C D:/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G_bsp/
+[BSP build complete]
+Info: Compiling Sign_G.c to obj/default/Sign_G.o
+nios2-elf-gcc -xc -MP -MMD -c -ID:/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G_bsp//HAL/inc -ID:/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G_bsp/ -ID:/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mhw-div -mhw-mul -mno-hw-mulx  -o obj/default/Sign_G.o Sign_G.c
+Sign_G.c:32:1: warning: missing braces around initializer [-Wmissing-braces]
+ float distance_v[43][2]={0};    //序号及电压记录表
+ ^
+Sign_G.c:32:1: warning: (near initialization for 'distance_v[0]') [-Wmissing-braces]
+Sign_G.c:33:1: warning: missing braces around initializer [-Wmissing-braces]
+ float distance_a[7][2]={0};     //序号及电压记录表
+ ^
+Sign_G.c:33:1: warning: (near initialization for 'distance_a[0]') [-Wmissing-braces]
+Sign_G.c: In function 'SYN_FrameInfo':
+Sign_G.c:217:14: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   HZ_Length =strlen(HZdata); //需要发送的文本长度
+              ^
+In file included from d:\ruanjian\quartus15.0\quartus\nios2eds\bin\gnu\h-x86_64-mingw32\nios2-elf\include\stdio.h:29:0,
+                 from Sign_G.c:1:
+d:\ruanjian\quartus15.0\quartus\nios2eds\bin\gnu\h-x86_64-mingw32\nios2-elf\include\string.h:34:9: note: expected 'const char *' but argument is of type 'alt_u8 *'
+ size_t  _EXFUN(strlen,(const char *));
+         ^
+Sign_G.c: In function 'YS_SYN_Set':
+Sign_G.c:236:11: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  Com_Len =strlen(Info_data);
+           ^
+In file included from d:\ruanjian\quartus15.0\quartus\nios2eds\bin\gnu\h-x86_64-mingw32\nios2-elf\include\stdio.h:29:0,
+                 from Sign_G.c:1:
+d:\ruanjian\quartus15.0\quartus\nios2eds\bin\gnu\h-x86_64-mingw32\nios2-elf\include\string.h:34:9: note: expected 'const char *' but argument is of type 'alt_u8 *'
+ size_t  _EXFUN(strlen,(const char *));
+         ^
+Sign_G.c: In function 'uart_0_init':
+Sign_G.c:305:2: warning: implicit declaration of function 'alt_irq_register' [-Wimplicit-function-declaration]
+  alt_irq_register(UART_0_IRQ,NULL,uart_isr);      //注册串口中断服务程序
+  ^
+Sign_G.c: In function 'main':
+Sign_G.c:420:22: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+            case 1 : {SYN_FrameInfo("聋");USART_printf("DS48(170,130,'聋',5);\n");k=0;break;}
+                      ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:422:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 2 : {SYN_FrameInfo("聋");USART_printf("DS48(170,130,'聋',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:424:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 3 : {SYN_FrameInfo("人");USART_printf("DS48(170,130,'人',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:426:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 4 : {SYN_FrameInfo("人");USART_printf("DS48(170,130,'人',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:428:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 5 : {SYN_FrameInfo("教");USART_printf("DS48(170,130,'教',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:430:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 6 : {SYN_FrameInfo("教");USART_printf("DS48(170,130,'教',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:431:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 7 : {SYN_FrameInfo("授");USART_printf("DS48(170,130,'授',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:432:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 8 : {SYN_FrameInfo("授");USART_printf("DS48(170,130,'授',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:433:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 9 : {SYN_FrameInfo("朋友");USART_printf("DS48(170,130,'朋友',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:434:21: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 10 : {SYN_FrameInfo("朋友");USART_printf("DS48(170,130,'朋友',5);\n");k=0;break;}
+                     ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:435:21: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 11 : {SYN_FrameInfo("你们");USART_printf("DS48(170,130,'你们',5);\n");k=0;break;}
+                     ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:436:21: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 12 : {SYN_FrameInfo("你们");USART_printf("DS48(170,130,''你们,5);\n");k=0;break;}
+                     ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:437:21: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 13 : {SYN_FrameInfo("好");USART_printf("DS48(170,130,'好',5);\n");k=0;break;}
+                     ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:438:21: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 14 : {SYN_FrameInfo("好");USART_printf("DS48(170,130,'好',5);\n");k=0;break;}
+                     ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:439:21: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 15 : {SYN_FrameInfo("欢迎");USART_printf("DS48(170,130,'欢迎',5);\n");k=0;break;}
+                     ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:440:21: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 16 : {SYN_FrameInfo("欢迎");USART_printf("DS48(170,130,'欢迎',5);\n");k=0;break;}
+                     ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:441:21: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 17 : {SYN_FrameInfo("请");USART_printf("DS48(170,130,'请',5);\n");k=0;break;}
+                     ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:442:21: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 18 : {SYN_FrameInfo("请");USART_printf("DS48(170,130,'请',5);\n");k=0;break;}
+                     ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:443:21: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 19 : {SYN_FrameInfo("和");USART_printf("DS48(170,130,'和',5);\n");k=0;break;}
+                     ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:444:21: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 20 : {SYN_FrameInfo("和");USART_printf("DS48(170,130,'和',5);\n");k=0;break;}
+                     ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:445:21: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 21 : {SYN_FrameInfo("联系");USART_printf("DS48(170,130,'联系',5);\n");k=0;break;}
+                     ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:446:21: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 22 : {SYN_FrameInfo("联系");USART_printf("DS48(170,130,'联系',5);\n");k=0;break;}
+                     ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:447:21: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 23 : {SYN_FrameInfo("沟");USART_printf("DS48(170,130,'沟',5);\n");k=0;break;}
+                     ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:448:21: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 24 : {SYN_FrameInfo("沟");USART_printf("DS48(170,130,'沟',5);\n");k=0;break;}
+                     ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:449:21: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 25 : {SYN_FrameInfo("通");USART_printf("DS48(170,130,'通',5);\n");k=0;break;}
+                     ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:450:21: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 26 : {SYN_FrameInfo("通");USART_printf("DS48(170,130,'通',5);\n");k=0;break;}
+                     ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:451:21: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+          case 27 : {SYN_FrameInfo("帮助");USART_printf("DS48(170,130,'帮助',5);\n");k=0;break;}
+                     ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:452:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+         case 28 : {SYN_FrameInfo("帮助");USART_printf("DS48(170,130,'帮助',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:453:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+         case 29 : {SYN_FrameInfo("克服");USART_printf("DS48(170,130,'克服',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:454:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+         case 30 : {SYN_FrameInfo("克服");USART_printf("DS48(170,130,'克服',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:455:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+         case 31 : {SYN_FrameInfo("困难");USART_printf("DS48(170,130,'困难',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:456:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+         case 32 : {SYN_FrameInfo("困难");USART_printf("DS48(170,130,'困难',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:457:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+         case 33 : {SYN_FrameInfo("完毕");USART_printf("DS48(170,130,'完毕',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:458:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+         case 34 : {SYN_FrameInfo("完毕");USART_printf("DS48(170,130,'完毕',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:459:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+         case 35 : {SYN_FrameInfo("");USART_printf("DS48(170,130,'',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:460:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+         case 36 : {SYN_FrameInfo("");USART_printf("DS48(170,130,'',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:461:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+         case 37 : {SYN_FrameInfo("");USART_printf("DS48(170,130,'',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:462:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+         case 38 : {SYN_FrameInfo("");USART_printf("DS48(170,130,'',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:463:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+         case 39 : {SYN_FrameInfo("");USART_printf("DS48(170,130,'',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:464:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+         case 40 : {SYN_FrameInfo("");USART_printf("DS48(170,130,'',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:465:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+         case 41 : {SYN_FrameInfo("");USART_printf("DS48(160,130,'',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:466:20: warning: pointer targets in passing argument 1 of 'SYN_FrameInfo' differ in signedness [-Wpointer-sign]
+         case 42 : {SYN_FrameInfo("");USART_printf("DS48(160,130,'',5);\n");k=0;break;}
+                    ^
+Sign_G.c:212:6: note: expected 'alt_u8 *' but argument is of type 'char *'
+ void SYN_FrameInfo(alt_u8 *HZdata)
+      ^
+Sign_G.c:331:7: warning: unused variable 'szADC_Data' [-Wunused-variable]
+  char szADC_Data[70]={0};
+       ^
+Sign_G.c:327:16: warning: unused variable 'f' [-Wunused-variable]
+  float sum,d,m,f;
+                ^
+Info: Linking Sign_G.elf
+nios2-elf-g++  -T'D:/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G_bsp//linker.x' -msys-crt0='D:/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -LD:/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/software/Sign_G_bsp/   -Wl,-Map=Sign_G.map   -O0 -g -Wall   -mhw-div -mhw-mul -mno-hw-mulx  -o Sign_G.elf obj/default/Sign_G.o -lm -msys-lib=m
+nios2-elf-insert Sign_G.elf --thread_model hal --cpu_name nios2_qsys --qsys true --simulation_enabled false --id 0 --sidp 0x1048 --timestamp 1637742172 --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name DE10_NANO_qsys --quartus_project_dir "d:/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/hardware" --sopcinfo D:/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/hardware/DE10_NANO_qsys.sopcinfo
+Info: (Sign_G.elf) 99 KBytes program size (code + initialized data).
+Info:              48 KBytes free for stack + heap.
+Info: Creating Sign_G.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Sign_G.elf >Sign_G.objdump
+[Sign_G build complete]
+
+14:03:39 Build Finished (took 8s.206ms)
+

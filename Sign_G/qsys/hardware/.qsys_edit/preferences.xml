@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="175" />
+   <irq preferredWidth="34" />
+   <name preferredWidth="230" />
+   <description preferredWidth="305" />
+   <inputclock preferredWidth="203" />
+  </columns>
+ </systemtable>
+ <library expandedCategories="Library,Project" />
+ <window width="1938" height="1098" x="-9" y="-9" />
+ <generation path="D:/Ruanjian/Quartus15.0/Test/Shouyu/Sign_G/qsys/hardware" />
+ <hdlexample language="VERILOG" />
+</preferences>

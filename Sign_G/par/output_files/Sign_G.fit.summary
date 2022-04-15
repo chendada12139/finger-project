@@ -1,0 +1,20 @@
+Fitter Status : Successful - Wed Nov 24 20:22:47 2021
+Quartus II 64-Bit Version : 15.0.0 Build 145 04/22/2015 SJ Full Version
+Revision Name : Sign_G
+Top-level Entity Name : Sign_G
+Family : Cyclone V
+Device : 5CSEBA6U23I7
+Timing Models : Final
+Logic utilization (in ALMs) : 1,779 / 41,910 ( 4 % )
+Total registers : 2647
+Total pins : 10 / 314 ( 3 % )
+Total virtual pins : 0
+Total block memory bits : 1,368,320 / 5,662,720 ( 24 % )
+Total RAM Blocks : 178 / 553 ( 32 % )
+Total DSP Blocks : 3 / 112 ( 3 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1 / 6 ( 17 % )
+Total DLLs : 0 / 4 ( 0 % )
